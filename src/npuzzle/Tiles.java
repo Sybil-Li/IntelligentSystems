@@ -69,4 +69,13 @@ public class Tiles implements State {
 		newTiles[newEmptyTileRow * width + newEmptyTileColumn] = EMPTY_TILE;
 		return new Tiles(width, newTiles, newEmptyTileRow, newEmptyTileColumn);
 	}
+	
+	public boolean equals(Tiles t) {
+		
+		return true;
+	}
+	
+	protected int hashCode() {
+		
+	}
 }
