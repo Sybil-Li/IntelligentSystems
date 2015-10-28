@@ -71,11 +71,19 @@ public class Tiles implements State {
 	}
 	
 	public boolean equals(Tiles t) {
-		
-		return true;
+		if (t.hashCode() == this.hashCode()) {
+			return true;
+		}
+		return false;
 	}
 	
-	protected int hashCode() {
-		
+	public int hashCode() {
+		int toReturn = 0;
+		for (int i = 0; i < width; i++) {
+			for (int j = 0; j < width; j++) {
+				toReturn += Math.pow(10, i+j)*tiles[i*width + j];
+			}
+		}
+		return toReturn;
 	}
 }

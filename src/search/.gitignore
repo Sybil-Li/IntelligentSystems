@@ -7,3 +7,6 @@
 /Frontier.class
 /BreadthFirstFrontier.class
 /DepthFirstFrontier.class
+/Search.class
+/TreeSearch.class
+/GraphSearch.class
