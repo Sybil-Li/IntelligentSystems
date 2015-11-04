@@ -81,7 +81,7 @@ public class Tiles implements State {
 		int toReturn = 0;
 		for (int i = 0; i < width; i++) {
 			for (int j = 0; j < width; j++) {
-				toReturn += Math.pow(10, i+j)*tiles[i*width + j];
+				toReturn += Math.pow(10, i*width+j)*tiles[i*width + j];
 			}
 		}
 		return toReturn;

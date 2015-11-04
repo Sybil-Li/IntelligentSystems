@@ -3,6 +3,8 @@ import java.util.*;
 
 public class TreeSearch implements Search {
 	protected Frontier f;
+	private int cnt = 0;
+	private int maxFrontier = 0;
 	
 	public TreeSearch (Frontier frontier) {
 		f = frontier;
@@ -21,9 +23,22 @@ public class TreeSearch implements Search {
 			while (c.hasNext()) {
 				Action a = c.next();
 				f.addNode(new Node(n, a, n.state.getActionResult(a)));
+				cnt++;
+			}
+			if (f.size() > maxFrontier) {
+				maxFrontier = f.size();
 			}
 		}
+		
 		return null;
 		
+	}
+	
+	public void printCnt() {
+		System.out.println("Number of Nodes Generated: " + cnt);
+	}
+	
+	public void printMaxFrontier() {
+		System.out.println("Max Size of Frontier " + maxFrontier);
 	}
 }

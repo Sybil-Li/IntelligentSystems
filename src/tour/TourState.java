@@ -28,4 +28,5 @@ public class TourState implements State {
 		newVisitedCities.add(road.targetCity);
 		return new TourState(newVisitedCities, road.targetCity);
 	}
+	
 }

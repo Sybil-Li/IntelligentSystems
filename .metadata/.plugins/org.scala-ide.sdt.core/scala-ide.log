@@ -1,3 +1,9 @@
 2015-10-28 09:12:08,104 ERROR [Worker-6] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
 2015-10-28 09:12:08,105 ERROR [Worker-6] - System.err - log4j:WARN Please initialize the log4j system properly.
 2015-10-28 09:12:08,105 ERROR [Worker-6] - System.err - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2015-11-04 09:11:18,933 ERROR [Worker-6] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2015-11-04 09:11:18,934 ERROR [Worker-6] - System.err - log4j:WARN Please initialize the log4j system properly.
+2015-11-04 09:11:18,934 ERROR [Worker-6] - System.err - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2015-11-04 09:25:51,155 ERROR [Worker-2] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2015-11-04 09:25:51,161 ERROR [Worker-2] - System.err - log4j:WARN Please initialize the log4j system properly.
+2015-11-04 09:25:51,161 ERROR [Worker-2] - System.err - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

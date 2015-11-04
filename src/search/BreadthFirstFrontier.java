@@ -25,4 +25,8 @@ public class BreadthFirstFrontier implements Frontier {
 		return queue.poll();
 	}
 	
+	public int size() {
+		return queue.size();
+	}
+	
 }

@@ -8,4 +8,6 @@ public interface Frontier {
 	boolean isEmpty();
 	
 	Node poll();
+	
+	int size();
 }
